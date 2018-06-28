@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Exemplo Formulário</title>
+    <link rel="stylesheet" href="div_form.css">
+  </head>
+  <body>
+
+    <div id="popup-form" class="form">
+
+
+
+      <h1>Cadastro Professor</h1><br>
+
+      <div class="circulo"></div>
+      <div class="circulo"></div>
+      <div class="circulo"></div>
+
+      <form>
+
+        <div class="texts">
+
+          Nome: <br> <input type="text" name="nomecompleto" value=""><br>
+
+          Nome Social: <br> <input type="text" name="nomesocial" placeholder="Opcional"s><br>
+
+          Gênero:<br>
+          <input type="radio" name="gender" value="male"> Masculino<br>
+          <input type="radio" name="gender" value="female"> Feminino<br>
+
+          Documento:<br>
+          <input type="radio" name="doc" value="cpf"> CPF<br>
+          <input type="radio" name="doc" value="rg"> RG<br>
+          <input type="radio" name="doc" value="passaporte"> Passaporte<br>
+
+          Número do documento: <br> <input  type="number" name="numdoc" value=""><br>
+
+          Data de nascimento: <br> <input type="date" name="nasc" value=""><br>
+
+          Nascionalidade: <br> <input type="text" name="nascionalidade" value=""><br>
+
+        </div>
+
+
+        <div class="texts">
+          E-mail: <br> <input type="text" name="email" value=""><br>
+
+          Instituição de origem: <br> <input type="text" name="origem" value=""><br>
+
+          Ano de titulação: <br> <input type="number" name="anotitulo" value=""><br>
+
+          País de titulção: <br> <input type="text" name="paistitulo" value=""><br>
+
+          Instituição de titulação: <br> <input type="text" name="institutotitulo" value=""><br>
+
+          Nível:<br>
+          <input type="radio" name="nivel" value="graduacao"> Graduação<br>
+          <input type="radio" name="nivel" value="especializacao"> Especialização<br>
+          <input type="radio" name="nivel" value="mestrado"> Mestrado<br>
+          <input type="radio" name="nivel" value="doutorado"> Doutorado<br>
+
+        </div>
+
+
+        <div class="texts">
+
+          Carga Semanal: <br> <input type="number" name="carga_s" value=""><br>
+
+          <br>Vinculo:<br>
+          <input type="radio" name="vinculo" value="servidor"> Servidor<br>
+          <input type="radio" name="vinculo" value="CLT"> CLT<br>
+          <input type="radio" name="vinculo" value="pj"> Pessoa Juridica<br>
+
+          <br>Categoria:<br>
+          <input type="radio" name="categoria" value="colaborador"> Colaborador<br>
+          <input type="radio" name="categoria" value="permanente"> Permanente<br>
+
+          <br>Inicio do vinculo(data): <br> <input type="date" name="anoinicio" value=""><br>
+
+          <br>Fim do vinculo(data): <br> <input type="date" name="anofim" value="Opcional"><br>
+
+          <br>Regime de Trabalho:<br>
+          <input type="radio" name="regime" value="h20h"> 20 Horas<br>
+          <input type="radio" name="regime" value="h40h"> 40 Horas<br>
+          <input type="radio" name="regime" value="de"> Dedicação Exclusiva<br>
+
+
+          <input id="submit" type="submit" value="Salvar">
+
+        </div>
+
+      </form>
+
+     </div>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+body{
+  color:#444;
+  font-weight: bold;
+  letter-spacing:1pt;
+  word-spacing:2pt;
+  font-size:0.8vw;
+  font-family:helvetica, sans-serif;
+  text-decoration: none;
+  background-color: #ddd;
+}
+input{
+  margin: 10px;
+  width: 10vw;
+}
+input[type="radio"]{
+  width: 1vw;
+}
+.form{
+  width: 40vw;
+  background-color: white;
+  display: table;
+  margin: auto;
+}
+.texts{
+  margin: 10px;
+  width: 12vw;
+  float: left;
+}
+h1{
+  margin-left: 8px;
+}
+.circulo{
+  margin-right: 5vw;
+  margin-left: 5vw;
+  float: left;
+  width: 3vw;
+  height: 3vw;
+  background-color: #666;
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+}
+#submit{
+  float: right;
+}
+h1{
+  color:#337ab7;
+  text-transform:uppercase;
+}
